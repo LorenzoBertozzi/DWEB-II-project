@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex; /*deixar alinhado*/
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color:#fceaf3; /*#FFE6F2*/
+    position: relative;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+nav .logo{
+    font-size: 25px;
+    font-weight: 200;
+    color:#FB3192;
+    cursor: pointer;
+    font-family:'Higuen'; /*'Parisienne', cursive;*/
+}
+nav .logo img {
+    margin-right: 0.005px; /* Espaçamento entre a imagem e o texto */
+    width: 50px; /* Largura da imagem, ajuste conforme necessário */
+    height: auto; /* Altura automática para manter proporções */
+}
+
+nav ol{
+    display: flex;
+    list-style: none; /*tira o estilo de lista*/
+    margin: auto 0;  /*encaixa no tamanho exato*/
+
+}
+
+nav ol li{
+    margin: 0 2px;
+}
+
+nav ol li a{
+    color:#FB3192;
+    font-size: 18px;
+    font-family: 'Calibri', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 10px;
+}
+
+nav a {
+    text-decoration: none; 
+}
+
+.user-info {
+    font-family:'verdana';
+    color: #FF5733;
+    font-size: 18px; /* Ajuste do tamanho */
+    
+}
+
+.user-info strong {
+    color: #FF5733; /* Cor destacada para o nome do usuário */
+}
+
+.sair-btn{
+    background-color: #a8753c;
+    border: none;
+    color: #FFE6F2;
+    font-family: 'verdana';
+    font-weight: bolder;
+}
